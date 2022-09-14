@@ -68,7 +68,7 @@ button {
   text-transform: uppercase;
   letter-spacing: 2.5px;
   font-weight: bold;
-  color: #403831;
+  color: #181614;
   background-color: #f996e4;
   border: none;
   border-radius: 45px;
@@ -87,19 +87,57 @@ button:hover {
 button:active {
   transform: translateY(-1px);
 }
+.tema {
+  color: rgb(149, 136, 115);
+}
 .about-me {
   color: rgb(149, 136, 115);
 }
 .about-me {
-  background-color: rgb(149, 136, 115);
-  color: #11100f;
-  border: 15px solid #f996e4;
+  color: rgb(149, 136, 115);
   margin-top: 15vh;
   font-size: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+.sobre {
+  padding: 25px;
+}
 .about {
-  margin-top: 15px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+.section-projetos {
+  display: flex;
+  font-size: 28px;
+  margin-top: 8%;
+
+  margin-left: 46%;
+  align-items: center;
+  color: rgb(149, 136, 115);
+}
+.box-projetos {
+  display: flex;
+  justify-content: space-around;
+  color: #403831;
+  margin-top: 20vh;
+}
+.box {
+  border: 15px solid #403831;
+  display: flex;
+}
+.tema {
+  color: #403831;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.descricao {
+  background-color: #403831;
+  color: rgb(182, 175, 163);
 }
