@@ -107,6 +107,13 @@ button:active {
 }
 .sobre {
   padding: 25px;
+  color: rgb(149, 136, 115);
+  font-size: 35px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  padding: 0px;
 }
 .about {
   margin-top: 20px;
@@ -183,7 +190,8 @@ button:active {
 .desenvolvedor {
   font-size: 25px;
   color: rgb(101, 101, 101);
-  margin-left: 75vh;
+  display: flex;
+  justify-content: center;
   padding: 50px;
 }
 .contato {
@@ -195,5 +203,31 @@ button:active {
 }
 .rd-social {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+@media (max-width: 1200px) {
+  .cabeçalho {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  section,
+  main,
+  footer,
+  .container-sobre {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+  }
+  .box-projetos,
+  .box {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+  img {
+    width: auto;
+  }
 }
