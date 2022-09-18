@@ -13,11 +13,13 @@ body {
 /*Header*/
 .cabeçalho {
   background-color: #fe9eea;
+
 }
 .cabeçalho-header {
   display: flex;
   align-items: flex-end;
   justify-content: space-evenly;
+  
 }
 .menu {
   font-size: 25px;
@@ -206,14 +208,10 @@ button:active {
   justify-content: center;
 }
 @media (max-width: 1200px) {
-  .cabeçalho {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-  }
-  section,
+  
   main,
   footer,
+  section,
   .container-sobre {
     display: flex;
     flex-direction: column;
@@ -226,8 +224,29 @@ button:active {
     display: flex;
     flex-direction: column;
     width: auto;
+    height: auto;
   }
   img {
-    width: auto;
+    width: 550px;
+    height: 400px;
   }
+  
+}
+@media (max-width: 570px){
+.menu{
+  position: fixed;
+}
+img {
+  width: 350px;
+  height: 350px;
+}
+.habilidades-box{
+ background-color: #212121;
+}
+.contato{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
 }
